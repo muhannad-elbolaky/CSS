@@ -1,0 +1,32 @@
+/* 5. Set a default font (e.g. sans-serif) for the entire content of your page and use "Inheritance" to change the font of the <li> items, too. */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 1. Style the above <h1> tag to use any color of your choice and a sans-serif font. */
+#assignment-instructions {
+  color: #2e5f3b;
+  font-family: sans-serif;
+}
+
+/* 2. Style all <code> tags to use the monospace font-family and have red text. */
+code {
+  color: #ff0000;
+  font-family: monospace;
+}
+
+/* 3. Use a class selector to ensure that the <code> elements in the second <li> element have a different color (e.g. green). */
+.second-li > code {
+  color: #008000;
+}
+
+/* 6. Use a combinator to give all <li> elements but the first one (!) a black background and white text color (don't worry if the numbers disappear). */
+li + li {
+  background-color: #e0e0e0;
+}
+
+/* 7. Use another combinator to now give all <li> inside an <ol> element a black background and white text color. */
+ol > li {
+  color: white;
+  background-color: black;
+}
