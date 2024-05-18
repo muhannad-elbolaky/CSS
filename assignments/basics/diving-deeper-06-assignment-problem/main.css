@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-size: 1.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+}
+
+.box {
+  color: #fff;
+  background-color: #505050;
+  width: 15rem;
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+  border: 0.5rem solid rgb(60, 168, 168);
+
+  /* Side by side */
+  display: inline-block;
+}
+
+.first-box {
+  height: 30rem;
+  width: 50%;
+  display: none;
+}
+
+.box:last-of-type:hover {
+  color: #505050;
+  background-color: #fff;
+}
